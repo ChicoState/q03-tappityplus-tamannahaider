@@ -1,6 +1,8 @@
 #ifndef _TAPPITY_H_
 #define _TAPPITY_H_
 #include <string>
+#include <cmath>
+using namespace std;
 
 /**
  * Class for tappity
@@ -8,6 +10,8 @@
 class tappity
 {
     private:
+	string ref; //Sets reference string
+	string inp; //Sets user input string
 
     public:
         //Constructor sets the reference phrase
